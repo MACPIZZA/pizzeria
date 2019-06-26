@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Camarones</title>
+<style type="text/css">
+<!--
+.Estilo3 {font-family: "Times New Roman", Times, serif; font-style: italic; font-weight: bold; font-size: 24px; }
+.Estilo5 {font-size: x-large}
+.Estilo6 {	color: #000000;
+	font-weight: bold;
+	font-style: italic;
+}
+-->
+</style>
+</head>
+
+<body background="imagenes/fondocama.jpg">
+<marquee bgcolor="#FFFFFF">
+  <h1 align="center"> REALIZA TU PEDIDO</h1>
+</marquee>
+  <center><form method="post" action="recibir2.php">
+    <label>
+    <div align="center"> 
+      <p>
+        <label><span class="Estilo3">Num. de Tel.:</span>
+        <input name="TELEFONO" type="text" maxlength="10">
+        </label>
+      </p>
+      <p>
+        <label><span class="Estilo3">A nombre de </span>
+        <input type="text" name="A NOMBRE DE" />
+        </label>
+        </label>
+</p>
+      <p><span class="Estilo3">Direccion</span>
+        <input type="text" name="DIRECCION">
+        <br> 
+    </p>
+    </div>
+    <label></label>
+    <span class="Estilo5">
+    <label><strong><em>Piezas</em></strong>
+    <select name="PIEZAS">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+    </label>
+    </span><br>
+	  <br> 
+    <label><span class="Estilo3">Tamaño </span>
+    <select name="TAMAÑO">
+      <option>Grande $200</option>
+      <option>Mediana $150</option>
+      <option>Chica $75</option>
+    </select>
+    </label>
+    <p>
+          <input type="submit" name="Submit" value="Enviar" />
+          <input type="reset" name="Submit2" value="Restablecer" />
+    </p>
+        <center>
+          <label> </label>
+          <div align="right"></div>
+        </center>
+        <div align="right"><a href="pagina2.html"> REGRESAR  MENU </a> </div>
+  </form></center>
+</body>
+</html>

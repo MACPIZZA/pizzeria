@@ -1,0 +1,85 @@
+<form action="reg.php" method="get"></form><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>peperoni</title>
+<style type="text/css">
+<!--
+.Estilo3 {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 24px;
+}
+.Estilo4 {color: #FFFFFF}
+.Estilo6 {color: #FFFFFF; font-size: 24px; }
+.Estilo7 {font-size: 24px}
+.Estilo10 {font-weight: bold; font-family: "Times New Roman", Times, serif;}
+.Estilo11 {font-weight: bold; color: #FFFFFF;}
+-->
+</style>
+</head>
+
+<body background="imagenes/fonhorarios.jpg">
+<center>
+<marquee bgcolor="#FF3300">
+  <h1 align="center"> REALIZA TU PEDIDO</h1>
+  </marquee>
+<p>&nbsp;</p>
+</center>
+  <form method="post" action="recibir.php">
+    <div align="center"> 
+      <p>
+        <label class="Estilo3"><strong>Num.de Tel.:</strong><strong>
+        <input name="TELEFONO" type="text" size="25" maxlength="10" />
+        </strong></label>
+      </p>
+      <p class="Estilo6"><span class="Estilo10">Direccion</span>
+        <input type="text" name="DIRECCION">
+        <br>
+	    <br>
+      </p>
+    </div>
+    <div align="center"></div>
+ <div align="center"><span class="Estilo3">Piezas</span>
+	   <select name="PIEZAS">
+	     <option>1</option>
+	     <option>2</option>
+	     <option>3</option>
+	     <option>4</option>
+	     <option>5</option>
+                </select>
+     </div>
+	 <div align="center" class="Estilo4 Estilo7">
+      <p><strong>Tamaño</strong>
+              <select name="TAMAÑO">
+                <option>Grande $200</option>
+                <option>Mediana $150</option>
+                <option>Chica $75</option>
+                </select>
+        </p>
+        <p>
+          <label><span class="Estilo11">A nombre de </span>
+          <input type="text" name="A NOMBRE DE" />
+          </label>
+          </label>
+</p>
+      </div>
+      </label>
+      <p align="right">
+      <span class="Estilo7"><span class="Estilo4">
+      <label>
+      <div align="center">
+        <p align="center">
+          <input type="submit" name="Submit3" value="Enviar" />
+        </p>
+        </label>
+        <label>
+        <div align="center">
+          <input type="reset" name="Submit22" value="Restablecer" />
+        </div>
+        </label>
+    <div align="right"><a href="pagina2.html" class="Estilo4">REGRESAR  MENU </a></div>
+  </form>
+  </center>
+</body>
+</html>
